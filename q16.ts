@@ -12,7 +12,7 @@
 let guest2:string[]=["Albert einstein","cristiano Ronaldo","Leonel messi"]
 guest2.splice(2,0,'😊')
 guest2.splice(0,0,'✔')
-guest2.append(666)
+guest2.push("Virat")
 
 
 for (let i=0;i<guest2.length;i+=1){
